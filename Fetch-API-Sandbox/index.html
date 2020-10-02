@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta http-equiv="X-UA-Compatible" content="ie-edge">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
-   <title>Fetch API Sandbox</title>
-</head>
-<body>
-   <div class="container">
-      <h1>Fetch API Sandbox</h1>
-      <button id="button1">Get Text</button>
-      <button id="button2">Get JSON</button>
-      <button id="button3">Get API Data</button>
-      <br><br>
-      <div id="output"></div>
-   </div>
+<html>
 
-   <script src="app.js"></script>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+      crossorigin="anonymous" />
+   <title>Londr</title>
+</head>
+
+<body>
+   <h2>Javascript Coding Exercise:</h2>
+   <p>Connect to
+   <pre>https://jsonplaceholder.typicode.com/users</pre> and
+   add the returned results to the table with the id "results" when a
+   button with the id of "get_users" is clicked. Display the user's name
+   and phone number in the table.
+   </p>
+   <p>Feel free to add whatever libraries or additional tools you wish.</p>
+   <button id="get_users">Get Users</button>
+   <table id="results"></table>
 </body>
+
 </html>
+
